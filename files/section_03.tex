@@ -5,13 +5,25 @@
         relacionar tales mediciones con su naturaleza y distribución.
     \end{block}    
 
-    Consta de tres elementos:
-    \begin{itemize}
-        \item Fuente de iluminación
-        \item Sensor
-        \item Objeto observado
-    \end{itemize}
+    \begin{figure}
+      \begin{center}
+        \includegraphics[width=0.95\textwidth]{img/section_03/percepcion_remota}
+      \end{center}
+      \caption{Fuente: \url{https://haciaelespacio.aem.gob.mx/revistadigital/articul.php?interior=706}}\label{fig:percepcion_remota}
+    \end{figure}
+    
 \end{frame}
+
+\begin{frame}{Sistemas de percepción remota}
+  \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.95\textwidth]{img/section_03/elementos3.jpg}
+    \end{center}
+    \caption{Elementos de un sistema de percepción remota}
+    \label{fig:elementos_percepcion_remota}
+  \end{figure}
+\end{frame}
+  
 
 \begin{frame}{Tipos de sensores}
     \begin{itemize}
@@ -57,19 +69,67 @@
 \end{frame}
 
 \begin{frame}{Resolución}
-    \footnotesize
     
+  \begin{block}{Resolución de los sensores remotos}
     La resolución de un sensor es su habilidad para registrar información en detalle de las distintas cubiertas. La resolución depende de la capacidad de los sensores para distinguir variaciones de la energía electromagnética, del detalle espacial que captura y del número y ancho de las bandas que alberga.
+  \end{block}
+ \end{frame}
     
-    \begin{itemize}
-        \item Resolución espacial.- es el objeto más pequeño que puede ser distinguido sobre la imagen. Define el tamaño del píxel, que es la distancia correspondiente al tamaño de la mínima unidad de información en la imagen.
-    
-        \item Resolución espectral.- es el número y el ancho de las bandas espectrales que puede discriminar el sensor, monoespectrales y multiespectrales.
-    
-        \item Resolución radiométrica.- es la capacidad para detectar variaciones en la radiancia espectral que recibe. Determina el número de niveles de gris recogidos y se expresa en niveles por píxel. A mayor resolución radiométrica, mejor interpretación de la imagen.
-    
-        \item Resolución temporal.- es la periodicidad con que el sensor adquiere imágenes de la misma porción de la superficie terrestre. Esta en función de las características orbitales de la plataforma (altura, velocidad e inclinación) y del diseño del sensor (ángulo de observación y ángulo de cobertura).
-    \end{itemize}
+\begin{frame}{Resolución espacial}
+  \begin{block}{Resolución espacial}
+    es el objeto más pequeño que puede ser distinguido sobre la imagen. Define el tamaño del píxel, que es la distancia correspondiente al tamaño de la mínima unidad de información en la imagen.
+  \end{block}
+
+  \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.95\textwidth]{img/section_03/resolucion_espacial}
+    \end{center}
+    \caption{Fuente: Fundamentals of Remote Sensing - NASA Applied Sciences}
+    \label{fig:resolucion_multiespectral_vs_hiperespectral}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Resolución espectral}
+  \begin{block}{Resolución espectral}
+    es el número y el ancho de las bandas espectrales que puede discriminar el sensor, monoespectrales y multiespectrales. Típicamente un sensor multiespectral tiene de 3 a 10 bandas mientras que uno hiperespectral puede contener cientos de ellas.
+  \end{block}
+
+  \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.95\textwidth]{img/section_03/resolucion_espectral}
+    \end{center}
+    \caption{Fuente: Fundamentals of Remote Sensing - NASA Applied Sciences}
+    \label{fig:resolucion_espectral}
+  \end{figure}
+  
+\end{frame}
+
+\begin{frame}{Resolución radiométrica}
+  \begin{block}{Resolución radiométrica}
+    es la capacidad para detectar variaciones en la radiancia espectral que recibe. Determina el número de niveles de gris recogidos y se expresa en niveles por píxel. A mayor resolución radiométrica, mejor interpretación de la imagen.
+  \end{block}
+
+  \begin{figure}
+    \begin{center}
+      \includegraphics[width=0.80\textwidth]{img/section_03/resolucion_radiometrica}
+    \end{center}
+    \caption{Fuente: Fundamentals of Remote Sensing - NASA Applied Sciences}
+    \label{fig:resolucion_radiometrica}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Resolución temporal}
+  \begin{block}{Resolución temporal}
+    es la periodicidad con que el sensor adquiere imágenes de la misma porción de la superficie terrestre. Esta en función de las características orbitales de la plataforma (altura, velocidad e inclinación) y del diseño del sensor (ángulo de observación y ángulo de cobertura).
+  \end{block}
+
+  \begin{figure}
+    \begin{center}
+      \includegraphics[scale=0.4]{img/section_03/resolucion_temporal}
+    \end{center}
+    \caption{Fuente: Fundamentals of Remote Sensing - NASA Applied Sciences}
+    \label{fig:resolucion_temporal}
+  \end{figure}
 \end{frame}
 
 \begin{frame}{Radar de Apertura Sintética}
@@ -90,6 +150,50 @@
         \label{fig:section_03_radar_apertura_sintetica}
     \end{figure}
 \end{frame}
+
+\begin{frame}{Principios de formación de la imagen de radar}
+  \begin{block}{Fundamento básico}
+    El fundamento básico de una imagen de radar es un sensor que emite un pulso y a través de la diferencia en el transcurso de tiempo entre su emisión y recepción así como de la amplitud del pulso retornado, se puede obtener la distancia del sensor a la que se encuentra el objeto en el que rebotó el pulso.
+  \end{block}
+
+  \begin{figure}
+    \begin{center}
+      \includegraphics[scale=0.4]{img/section_03/principio_01}
+    \end{center}
+    \caption{Fuente: Fundamentos de teledetección radar. Gobierno de España}
+    \label{fig:resolucion_temporal}
+  \end{figure}
+\end{frame}
+
+\begin{frame}{Frecuencias de operación}
+  \begin{block}{Frecuencias}
+    Los radares trabajan en la frecuencia del espectro electromagnético de las microondas (por lo que también son llamados sensores de microondas) pero se subdividen en los siguientes grupos
+  \end{block}
+
+  \footnotesize
+  \begin{table}
+    \caption{Longitudes de onda y frecuencias de radar}
+    \label{tab:longitudes_onda}
+    \begin{center}
+      \begin{tabular}[c]{c|l|l}
+        \hline
+        Banda & Longitud de onda (cm) & Frecuencia (GHz) \\
+        \hline
+        Ka & 0.75 - 1.2 & 40 - 25 \\
+        K & 1.2 - 1.67 & 25 - 18 \\
+        Ku & 1.7 - 2.5 & 17.6 - 12 \\
+        X & 2.5 - 4 & 12 - 7.5 \\
+        C & 4 - 8 & 7.5 - 3.75 \\
+        S & 8 - 15 & 3.75 - 2 \\
+        L & 15 - 30 & 2 - 1 \\
+        P & 60 - 120 & 0.5 - 0.25 \\
+        \hline
+      \end{tabular}
+    \end{center}
+  \end{table}
+\end{frame}
+  
+
 
 \begin{frame}{Dinámica de la interacción SAR-Derrame}
     \begin{figure}
