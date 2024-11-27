@@ -1,7 +1,7 @@
 1.- Actualizar antecedentes con el reporte de CIGOM
-1.1.- Consecuencias ambientales, económicas, sociales
-1.2.- Diapositiva de pozos perforados, actualizar con reporte de CIGOM
-1.3.- Deep Water Horizon, agregar datos como extensión del derrame, fechas, causas, pérdidas económicas
+1.1.- Consecuencias ambientales, económicas, sociales - OK
+1.2.- Diapositiva de pozos perforados, actualizar con reporte de CIGOM - OK
+1.3.- Deep Water Horizon, agregar datos como extensión del derrame, fechas, causas, pérdidas económicas - OK
 1.4.- Dinámica de la interacción océano-petróleo, agregar lista con los diferentes procesos químicos que pueden ocurrir y como afecta al proceso de detección del petroleo
 2.- Actualizar estado del arte con artículos con nuevas metodologías
 2.1.- Revisión del estado del arte con metodologías
