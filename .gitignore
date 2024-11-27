@@ -5,5 +5,7 @@ presentation.out
 presentation.pdf
 presentation.snm
 presentation.toc
+presentacion.bbl
+presentacion.blg
 
 *.log
